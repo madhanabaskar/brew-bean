@@ -30,7 +30,7 @@ export function SafeImage({ src, alt, className, ...props }) {
           onLoad={() => setStatus('loaded')}
           onError={() => setStatus('error')}
           className={cn(
-            "w-full h-full object-cover transition-opacity duration-500",
+            "w-full h-full object-cover transition-opacity duration-150",
             status === 'loaded' ? 'opacity-100' : 'opacity-0'
           )}
           {...props}

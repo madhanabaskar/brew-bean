@@ -24,7 +24,7 @@ export function Home() {
       exit="exit"
     >
       {/* Hero Section */}
-      <section className="relative min-h-[85vh] md:min-h-screen flex items-center justify-center">
+      <section className="relative min-h-[100dvh] md:min-h-screen flex items-center justify-center">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
@@ -38,7 +38,7 @@ export function Home() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.1 }}
             className="text-white/80 uppercase tracking-[0.2em] text-sm mb-6 font-medium"
           >
             Freshly brewed every morning
@@ -46,7 +46,7 @@ export function Home() {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
+            transition={{ delay: 0.2 }}
             className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 md:mb-8 leading-tight drop-shadow-lg"
           >
             Good Coffee.<br />Good Moments.
@@ -54,7 +54,7 @@ export function Home() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
+            transition={{ delay: 0.3 }}
             className="text-lg md:text-xl text-white/90 mb-12 max-w-2xl mx-auto font-light"
           >
             "Slow down, sip something special, and enjoy the little moments that make your day."
@@ -62,7 +62,7 @@ export function Home() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8 }}
+            transition={{ delay: 0.4 }}
             className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6"
           >
             <Button to="/menu" variant="primary" size="lg">Explore Menu</Button>

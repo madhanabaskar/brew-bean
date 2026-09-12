@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow min-h-screen">
         <ErrorBoundary>
           <Suspense fallback={<LoadingScreen delay={400} />}>
             <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
