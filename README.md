@@ -1,3 +1,4 @@
+<img width="1200" height="798" alt="image" src="https://github.com/user-attachments/assets/f659c3d7-757e-433a-9733-45ddbc201296" />
 <<<<<<< HEAD
 # React + Vite
 
@@ -19,4 +20,4 @@ If you are developing a production application, we recommend using TypeScript wi
 # brew-bean
 A ecommerce website for a coffee restaurant.
 >>>>>>> 4963d1190fe606eb50793bff7cc261a1017409e9
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/797b4958-815e-4563-b381-67c5b730d3d0" />
+
