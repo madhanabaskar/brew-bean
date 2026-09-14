@@ -4,7 +4,7 @@
 
 Brew Bean is a modern, responsive web application for a premium coffee shop and restaurant. Built with performance and beautiful aesthetics in mind, it provides customers with an intuitive interface to browse the menu, view the gallery, make reservations, and contact the shop.
 
-<img width="1920" height="1080" alt="Brew Bean Preview" src="https://github.com/user-attachments/assets/797b4958-815e-4563-b381-67c5b730d3d0" />
+
 
 ## ✨ Features
 
